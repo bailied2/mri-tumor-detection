@@ -369,14 +369,7 @@ results['final']['yesFitness'] = computeFitness(
   results['final']['yesAccuracy'],
   results['final']['time']
 )
-cnnConfig = {
-  'numFilters': 50,
-  'kernelSize': 4,
-  'numConv2DLayers': 1,
-  'poolingSize': 2,
-  'denseNodes': 20,
-  'learningRate': 0.01,
-}
+
 # Print final config
 print(f"Final config - \n\
       Image Size: {cnnConfig['imageSize']} \n\
